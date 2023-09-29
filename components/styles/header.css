@@ -55,3 +55,49 @@ nav ul li:first-child{
   background: #fff;
   margin: 5px auto;
 }
+
+.headerBlock{
+  width: 100vw;
+  height: 80vh;
+  margin: 0;
+  margin-top: 15vh;
+  background: url('../../assets/headerImage.png') no-repeat;
+  background-size: 140% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headTitle{
+  width: 90%;
+  font-size: 48px;
+  text-align: center;
+  &::after{
+    content: "Best NFTs!";
+    color: #FFCE4E;
+  }
+}
+
+.headerBtns{
+  margin-top: -10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.headerBtns__element{
+  width: 40vw;
+  height: 10vh;
+  background: #FFCE4E;
+  border: 1px solid #FFCE4E;
+  transition: .4s;
+  &:first-child{
+    margin-right: 4vw;
+  }
+  &:last-child{
+    margin-left: 4vw
+  }
+  &:active{
+    background: #00000000;
+    color: #FFCE4E;
+  }
+}

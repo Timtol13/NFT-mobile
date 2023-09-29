@@ -1,8 +1,11 @@
 @import "./header.css";
+@import "./firstBlock.css";
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@700&family=Work+Sans:wght@600&display=swap');
 
+
+
 .app{
-    width: 100vh;
+    width: 100vw;
     height: 100%;
     background-color: #1C121F;
     color: #fff;
