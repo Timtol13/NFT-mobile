@@ -1,0 +1,155 @@
+.categories{
+    width: 100%;
+    background: url('../../assets/thirdPage/bg.png');
+}
+.categoriesHead{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categoriesHead .ball{
+    margin-top: -60px;
+    position: absolute;
+    background: rgba(134, 19, 165, 1);
+    width: 18vw;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    z-index: 0;
+    left: 28%;
+}
+.categoriesHead h1{
+    z-index: 1;
+    text-align: center;
+}
+
+
+.categoriesImageBtn{
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 50%;
+    position: absolute;
+    left: 30vw;
+    width: 180px;
+    height: 60px;
+    background: rgba(255, 206, 78, 1);
+    border: none;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.slotImage:active .categoriesImageBtn{
+    visibility: visible;
+    opacity: 1;
+}
+
+.slotImage:active img{
+    filter:brightness(.7);
+}
+
+.categories .slots{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories .viewAllBtn{
+    width: 220px;
+    height: 70px;
+    background-color: #00000000;
+    border: 2px solid rgba(255, 206, 78, 1);
+    color: #fff;
+    transition: .4s;
+    &:active{
+        background: rgba(255, 206, 78, 1);
+    }
+}
+.categories .slots .slot{
+    width: 90vw;
+    height: 68vh;
+    background: rgba(61, 41, 66, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+    &:not(:last-child){
+        margin-bottom: 40px;
+    }
+}
+
+.categories .slotImage .iamgeBg{
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    background: linear-gradient(125.33deg, #8613A5 18.61%, rgba(250, 250, 250, 0.65) 137.4%);
+    z-index: 1;
+}
+.categories .slotImage .imageTime{
+    position: relative;
+    padding: 15px 5px;
+    width: 50%;
+    text-align: center;
+    z-index: 2;
+}
+
+
+
+.categories .slotProfile{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    width: 90vw;
+}
+.categories .slotProfile h2, h5{
+    margin: 3px;
+}
+.slotProfile h5{
+    color: #BDAAC1;
+}
+.slotLikes{
+    justify-self: flex-end;
+    margin-right: 30px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.slotLikes h1{
+    color: #BDAAC1;
+}
+.categories .slotLikes svg{
+    margin: 5px;
+}
+.categories .slotInfo{
+    display: flex;
+    justify-self: flex-start;
+    margin-left: 30px;
+}
+
+
+.categories .slotPrice{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+}
+.categories .slotPrice h2{
+    justify-self: flex-start;
+    margin-left: 30px;
+    margin-right: auto;
+}
+.categories .slotPrice h1{
+    justify-self: flex-end;
+    margin-right: 30px;
+    margin-left: auto;
+}
+.categories .slotBtn{
+    width: 70%;
+    height: 50px;
+    background-color: rgba(233, 215, 167, 0.1);
+    border: 1px solid rgba(188, 179, 154, 1);
+    color: #fff;
+    transition: .4s;
+    &:active{
+        background-color: rgba(188, 179, 154, 1);
+    }
+}
