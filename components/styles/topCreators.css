@@ -1,0 +1,101 @@
+.creators{
+    width: 100%;
+}
+.creatorsHead{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../../assets/creators/bg.png') no-repeat;
+    background-size: 100%;
+}
+
+.creatorsHead .ball{
+    position: absolute;
+    background: rgba(134, 19, 165, 1);
+    width: 18vw;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+    z-index: 0;
+    left: 20%;
+}
+.creatorsHead h1{
+    z-index: 1;
+}
+
+.creatorsCards{
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creatorCard{
+    width: 92vw;
+    height: 102px;
+    border-left: 2px solid #E03054;
+    display: flex;
+    align-items: center;
+    background-color: #302034;
+    margin-left: auto;
+    margin-right: auto;
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+}
+.creatorCard img{
+    width: 48px;
+    aspect-ratio: 1/1;
+    margin: 15px;
+}
+
+.creatorCard .profileData{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.profileDataText{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileDataText h1, .profileDataText h3{
+    margin: 0;
+}
+.profileDataText h1{
+    font-size: 22px;
+    color: #F5FBF2;
+}
+.profileDataText h3{
+    font-size: 14px;
+    color: #BDAAC1;
+}
+.creatorsItems{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-right: 20px;
+}
+.creatorsItems .line{
+    width: 2px;
+    height: 70px;
+    margin: 0 25px;
+    background: #5E4564;
+}
+.creatorsItems .data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.creatorsItems .data h2, .creatorsItems .data h4{
+    margin: 0;
+}
+.creatorsItems .data h2{
+    font-size: 34px;
+    color: #F5FBF2;
+}
+.creatorsItems .data h4{
+    font-size: 16px;
+    color: #908294;
+}

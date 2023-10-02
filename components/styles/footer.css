@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #96839B;
+}
+.footer p{
+    max-width: 90%;
+    font-size: 20px;
+}
+.footerContacts{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+}
+.footerContactsItem h1{
+    color: #F5FBF2;
+}
+.item1{
+    margin-right: 30px;
+}
+.item2{
+    margin-left: 30px;
+}
+
+.social{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}

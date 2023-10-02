@@ -8,6 +8,8 @@ import { HowItWorks } from '../HowItWorks/HowItWorks'
 import { PopularCollections } from '../PopularCollections/PopularCollections'
 import { Categories } from '../Categories/Categories'
 import { TopCreators } from '../TopCreators/TopCreators'
+import { FeedBack } from '../EmailFeedback/FeedBack'
+import { Footer } from '../Footer/Footer'
 
 export const Main = () => {
   return (
@@ -20,6 +22,8 @@ export const Main = () => {
         <PopularCollections />
         <Categories />
         <TopCreators />
+        <FeedBack />
+        <Footer />
     </div>
   )
 }

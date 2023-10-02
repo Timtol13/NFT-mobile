@@ -2,8 +2,6 @@
     margin-top: -5vh;
     width: 100%;
     height: 100vh;
-    background: url("../../assets/firstBlock/bg.png") no-repeat;
-    background-size: 130% auto;
     display: flex;
     flex-direction: column;
     align-items: center;
